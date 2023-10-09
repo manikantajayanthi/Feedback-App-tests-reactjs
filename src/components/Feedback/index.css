@@ -1,0 +1,68 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  align-content: space-between;
+}
+
+.button {
+  background-color: transparent;
+  border-style: none;
+  border-color: transparent;
+  outline: none;
+}
+
+.image {
+  height: 70px;
+  width: 70px;
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.feedback-container {
+  background-color: #ffffff;
+  height: 50vh;
+  width: 100vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.love-emoji {
+  width: 10%;
+}
+
+.feedback-description {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.emoji-name {
+  text-align: center;
+  margin-right: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
